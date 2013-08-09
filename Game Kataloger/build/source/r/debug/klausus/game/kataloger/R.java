@@ -19,9 +19,14 @@ public final class R {
     }
     public static final class drawable {
         public static final int add=0x7f020000;
-        public static final int games=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int transparent=0x7f020003;
+        public static final int consoles=0x7f020001;
+        public static final int consoles2=0x7f020002;
+        public static final int games=0x7f020003;
+        public static final int genres=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int plataform=0x7f020006;
+        public static final int transparent=0x7f020007;
+        public static final int wishlist=0x7f020008;
     }
     public static final class id {
         public static final int action_settings=0x7f080006;

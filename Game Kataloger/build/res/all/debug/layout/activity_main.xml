@@ -78,7 +78,11 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton3"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:src="@drawable/wishlist"
+                    android:scaleType="fitCenter"
+                    android:focusableInTouchMode="false"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -100,7 +104,10 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton4"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/transparent"
+                    android:src="@drawable/consoles"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -128,7 +135,10 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton5"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/genres"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -149,7 +159,10 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton6"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:src="@drawable/plataform"
+                    android:scaleType="fitCenter"/>
 
             <TextView
                     android:layout_width="wrap_content"
