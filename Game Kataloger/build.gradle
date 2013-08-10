@@ -24,4 +24,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:13.0.+'
+    compile 'com.android.support:appcompat-v7:18.0.+'
+    compile group:'com.android.support', name:'appcompat-v7', version:'18.0.+'
 }

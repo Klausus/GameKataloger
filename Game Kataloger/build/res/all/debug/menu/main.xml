@@ -1,29 +1,31 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
 
-    <item   android:id="@+id/menu_search"
-            android:showAsAction="ifRoom"
-            android:icon="@android:drawable/ic_menu_search"
-            android:title="@string/menu_search"/>
+    <item  android:id="@+id/menu_search"
+           android:icon="@drawable/icon_search"
+           android:title="@string/menu_search"
+           app:showAsAction="always|collapseActionView"
+           app:actionViewClass="android.support.v7.widget.SearchView"/>
 
-    <item   android:id="@+id/menu_barcode"
-            android:showAsAction="ifRoom"
-            android:icon="@android:drawable/ic_menu_help"
-            android:title="@string/menu_barcode"/>
+    <item  android:id="@+id/menu_barcode"
+           android:icon="@drawable/icon_barcode"
+           android:title="@string/menu_barcode"
+           app:showAsAction="always"/>
 
     <item android:id="@+id/menu_genres"
           android:title="@string/genres"
           android:orderInCategory="100"
-          android:showAsAction="never" />
+          app:showAsAction="never" />
 
     <item android:id="@+id/menu_platforms"
           android:title="@string/platform"
           android:orderInCategory="101"
-          android:showAsAction="never" />
+          app:showAsAction="never" />
 
     <item android:id="@+id/menu_settings"
           android:title="@string/settings"
           android:orderInCategory="102"
-          android:showAsAction="never" />
+          app:showAsAction="never" />
 
 </menu>
 <!-- From: file:/D:/GIT/GameKataloger/Game%20Kataloger/src/main/res/menu/main.xml -->

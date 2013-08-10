@@ -1,16 +1,21 @@
 package klausus.game.kataloger;
 
+
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 
-public class GenresActivity extends Activity {
+public class GenresActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_genres);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
 
 

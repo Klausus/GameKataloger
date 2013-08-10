@@ -11,21 +11,21 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 
-        <activity
-            android:name="klausus.game.kataloger.MainActivity"
-            android:label="@string/app_name" >
+        <activity   android:name="klausus.game.kataloger.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="klausus.game.kataloger.GenresActivity"
-            android:label="@string/title_activity_genres" >
+        <activity   android:name="klausus.game.kataloger.GenresActivity"
+                    android:parentActivityName="klausus.game.kataloger.MainActivity">
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="klausus.game.kataloger.MainActivity" />
         </activity>
 
     </application>
