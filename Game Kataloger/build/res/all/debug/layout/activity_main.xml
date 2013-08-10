@@ -9,24 +9,27 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            >
 
         <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:onClick="onClickNotImplemented">
 
             <ImageButton
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton1"
                     android:layout_weight="1"
-                    android:longClickable="false"
                     android:adjustViewBounds="false"
                     android:src="@drawable/add"
                     android:scaleType="fitCenter"
-                    android:background="@drawable/transparent"/>
+                    android:background="@drawable/transparent"
+                    android:clickable="false"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -41,7 +44,9 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:onClick="onClickNotImplemented">
 
             <ImageButton
                     android:layout_width="fill_parent"
@@ -50,7 +55,8 @@
                     android:layout_weight="1"
                     android:src="@drawable/games"
                     android:scaleType="fitCenter"
-                    android:background="@drawable/transparent"/>
+                    android:background="@drawable/transparent"
+                    android:clickable="false"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -72,7 +78,9 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:onClick="onClickNotImplemented">
 
             <ImageButton
                     android:layout_width="fill_parent"
@@ -82,7 +90,8 @@
                     android:background="@drawable/transparent"
                     android:src="@drawable/wishlist"
                     android:scaleType="fitCenter"
-                    android:focusableInTouchMode="false"/>
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -98,7 +107,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                >
+                android:layout_margin="2dp"
+                android:onClick="onClickNotImplemented">
 
             <ImageButton
                     android:layout_width="fill_parent"
@@ -107,7 +117,8 @@
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
                     android:background="@drawable/transparent"
-                    android:src="@drawable/consoles"/>
+                    android:src="@drawable/consoles"
+                    android:clickable="false"/>
 
             <TextView
                     android:layout_width="wrap_content"
@@ -122,55 +133,9 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1.2"
+            android:layout_margin="2dp">
 
-        <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1">
-
-            <ImageButton
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:id="@+id/imageButton5"
-                    android:layout_weight="1"
-                    android:background="@drawable/transparent"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/genres"/>
-
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/genres"
-                    android:layout_gravity="center"/>
-        </LinearLayout>
-
-        <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                >
-
-            <ImageButton
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:id="@+id/imageButton6"
-                    android:layout_weight="1"
-                    android:background="@drawable/transparent"
-                    android:src="@drawable/plataform"
-                    android:scaleType="fitCenter"/>
-
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/plataform"
-                    android:layout_gravity="center"/>
-        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout><!-- From: file:/D:/GIT/GameKataloger/Game%20Kataloger/src/main/res/layout/activity_main.xml -->

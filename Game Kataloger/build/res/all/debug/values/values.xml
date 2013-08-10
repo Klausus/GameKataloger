@@ -4,7 +4,10 @@
     <!-- From: file:/D:/GIT/GameKataloger/Game%20Kataloger/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/GIT/GameKataloger/Game%20Kataloger/src/main/res/values/integers.xml -->
+    <integer name="DB_Version">1</integer>
     <!-- From: file:/D:/GIT/GameKataloger/Game%20Kataloger/src/main/res/values/strings.xml -->
+    <string name="DB_name">DB</string>
     <string name="action_settings">Settings</string>
     <string name="addgame">Añadir Juego</string>
     <string name="app_name">Game Kataloger</string>
@@ -12,7 +15,11 @@
     <string name="games">Juegos</string>
     <string name="genres">Generos</string>
     <string name="hello_world">Hello world!</string>
-    <string name="plataform">Plataformas</string>
+    <string name="menu_barcode">Codigo de Barras</string>
+    <string name="menu_search">Buscar</string>
+    <string name="platform">Plataformas</string>
+    <string name="settings">Opciones</string>
+    <string name="title_activity_genres">Genres Activity</string>
     <string name="wishlist">Wishlist</string>
     <!-- From: file:/D:/GIT/GameKataloger/Game%20Kataloger/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">

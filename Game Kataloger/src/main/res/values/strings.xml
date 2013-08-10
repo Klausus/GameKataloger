@@ -2,7 +2,19 @@
 <resources>
 
     <string name="app_name">Game Kataloger</string>
+    <string name="DB_name">DB</string>
+
+    <string name="settings">Opciones</string>
+    <string name="addgame">Añadir Juego</string>
+    <string name="games">Juegos</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="consoles">Consolas y Accesorios</string>
+    <string name="platform">Plataformas</string>
+    <string name="genres">Generos</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_barcode">Codigo de Barras</string>
+    <string name="title_activity_genres">Genres Activity</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string><string name="addgame">Añadir Juego</string><string name="games">Juegos</string><string name="wishlist">Wishlist</string><string name="consoles">Consolas y Accesorios</string><string name="plataform">Plataformas</string><string name="genres">Generos</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
